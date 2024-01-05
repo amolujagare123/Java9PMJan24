@@ -9,6 +9,7 @@ public class Addition2 {
         double c;
 
         Scanner sc = new Scanner(System.in);
+
         System.out.println("please enter a=");
         a = sc.nextDouble();
 
