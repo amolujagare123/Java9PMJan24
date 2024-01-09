@@ -1,20 +1,21 @@
+package basics;
+
 import java.util.Scanner;
 
-public class Addition2 {
+public class Addition {
 
     public static void main(String[] args) {
 
-        double a;
-        double b;
-        double c;
+        int a;
+        int b;
+        int c;
 
         Scanner sc = new Scanner(System.in);
-
         System.out.println("please enter a=");
-        a = sc.nextDouble();
+        a = sc.nextInt();
 
         System.out.println("please enter b=");
-        b = sc.nextDouble();
+        b = sc.nextInt();
 
         c = a + b ;
         System.out.println("c="+c);
