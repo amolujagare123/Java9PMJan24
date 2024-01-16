@@ -17,6 +17,8 @@ public class StringArray {
         stArr[8] = "Vikram";
         stArr[9] = "Divya";
 
+
+
         for (String str : stArr)
             System.out.println(str);
     }

@@ -12,6 +12,5 @@ public class StringDemo3 {
         System.out.println("str2="+str2.toLowerCase());
 
 
-
     }
 }
