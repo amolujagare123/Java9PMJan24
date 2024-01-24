@@ -9,11 +9,11 @@ public class Java3 extends Java1 {
         Java1 ob = new Java1();
 
         ob.a = 90 ;
-        ob.d = 23.56;
+     /*   ob.d = 23.56;
         ob.c= 'h';
         ob.str = "amol";
 
-        ob.display();
+        ob.display();*/
 
 
         Java3 j3 = new Java3();
