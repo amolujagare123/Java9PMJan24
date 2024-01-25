@@ -12,6 +12,7 @@ public class AreaCircle {
 
         System.out.println("radius of Circle="+r);
 
-        System.out.println("Area of Circle="+area);
+       // System.out.println("Area of Circle="+area);
+        System.out.println(area);
     }
 }
