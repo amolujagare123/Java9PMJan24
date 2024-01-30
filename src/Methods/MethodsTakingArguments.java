@@ -1,6 +1,6 @@
 package Methods;
 
-import basics.BookPublication;
+import basics.ClassPack.BookPublication;
 
 public class MethodsTakingArguments {
 
@@ -57,7 +57,7 @@ public class MethodsTakingArguments {
     public void bookDetailsAfterProfit(BookPublication obj)
     {
         obj.calculateTotalProfit();
-        obj.displayDetails();
+        System.out.println("Profit Printed --> "+obj.totalProfit);
     }
     public static void main(String[] args) {
         MethodsTakingArguments ob = new MethodsTakingArguments();
@@ -84,7 +84,7 @@ public class MethodsTakingArguments {
         BookPublication bookPublication = new BookPublication();
         bookPublication.bookName ="Software Testing";
         bookPublication.publicationName ="TechMax";
-        bookPublication.price = 280;
+        bookPublication.price = 300;
         bookPublication.displayDetails();
 
         ob.bookDetailsAfterProfit(bookPublication);
