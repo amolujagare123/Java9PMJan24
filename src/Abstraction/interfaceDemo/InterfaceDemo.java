@@ -18,6 +18,8 @@ public interface InterfaceDemo {
     }
 
     void display();
+
+
 }
 
 interface AnotherInterface
