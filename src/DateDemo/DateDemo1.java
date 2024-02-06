@@ -23,9 +23,17 @@ public class DateDemo1 {
         String dateStr  = "23/04/2000";
         SimpleDateFormat sd2 = new SimpleDateFormat("dd/MM/yyyy");
         System.out.println(dateStr);
-        System.out.println(sd2.parse(dateStr));
 
-        Date var2 = sd2.parse(dateStr);
+     //   try {
+            System.out.println(sd2.parse(dateStr));
+
+            Date var2 = sd2.parse(dateStr);
+
+    /*    }
+        catch (Exception e)
+        {
+
+        }*/
 
     }
 }
